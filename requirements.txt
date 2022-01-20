@@ -5,3 +5,9 @@ colors
 vibrant
 knows variety food testies
 vidio call attend
+#!/bin//bash
+yum update -y
+yum install git httpd -y
+service httpd start
+chkconfig httpd on
+echo 'Google' > requirements.txt /var/www/html
